@@ -9,7 +9,7 @@ require ROOT_DIR . 'includes/Common.php';
 $db = \Idyll\Db::init([
     'type' => 'mysql',
     'host' => 'localhost',
-    'database' => 'Idyll',
+    'database' => 'idyll',
     'username' => 'root',
     'password' => 'root',
     'port' => 3306,

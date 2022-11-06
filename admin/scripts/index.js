@@ -1,3 +1,9 @@
+const drawer = mdc.drawer.MDCDrawer.attachTo(document.querySelector('.mdc-drawer'));
+document.querySelector('#asideToggle').addEventListener('click', function () {
+    drawer.open = !drawer.open;
+});
+
+
 // 显示通知
 const showNotice = (message, type = 'info') => {
     let content = `<div class="notice ${type}">${message}</div>`;

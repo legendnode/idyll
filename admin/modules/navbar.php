@@ -1,4 +1,37 @@
-<nav class="navbar">
+<aside class="mdc-drawer mdc-drawer--modal">
+    <div class="mdc-drawer__content">
+        <nav class="mdc-deprecated-list">
+            <a class="mdc-deprecated-list-item mdc-deprecated-list-item--activated" href="#" aria-current="page" tabindex="0">
+                <span class="mdc-deprecated-list-item__ripple"></span>
+                <i class="material-icons mdc-deprecated-list-item__graphic" aria-hidden="true">inbox</i>
+                <span class="mdc-deprecated-list-item__text">Inbox</span>
+            </a>
+            <a class="mdc-deprecated-list-item" href="#">
+                <span class="mdc-deprecated-list-item__ripple"></span>
+                <i class="material-icons mdc-deprecated-list-item__graphic" aria-hidden="true">send</i>
+                <span class="mdc-deprecated-list-item__text">Outgoing</span>
+            </a>
+            <a class="mdc-deprecated-list-item" href="#">
+                <span class="mdc-deprecated-list-item__ripple"></span>
+                <i class="material-icons mdc-deprecated-list-item__graphic" aria-hidden="true">drafts</i>
+                <span class="mdc-deprecated-list-item__text">Drafts</span>
+            </a>
+        </nav>
+    </div>
+</aside>
+<div class="mdc-drawer-scrim"></div>
+<header class="mdc-top-app-bar mdc-top-app-bar--fixed" style="top: 0px;">
+    <div class="mdc-top-app-bar__row">
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+            <button id="asideToggle" class="mdc-icon-button material-icons mdc-top-app-bar__navigation-icon mdc-ripple-upgraded--unbounded mdc-ripple-upgraded" style="--mdc-ripple-fg-size:28px; --mdc-ripple-fg-scale:1.71429; --mdc-ripple-left:10px; --mdc-ripple-top:10px;">menu</button>
+            <span class="mdc-top-app-bar__title">Fixed</span>
+        </section>
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+            <button class="mdc-icon-button material-icons mdc-top-app-bar__action-item mdc-ripple-upgraded--unbounded mdc-ripple-upgraded" aria-label="Download" style="--mdc-ripple-fg-size:28px; --mdc-ripple-fg-scale:1.71429; --mdc-ripple-left:10px; --mdc-ripple-top:10px;">file_download</button><button class="mdc-icon-button material-icons mdc-top-app-bar__action-item mdc-ripple-upgraded--unbounded mdc-ripple-upgraded" aria-label="Print this page" style="--mdc-ripple-fg-size:28px; --mdc-ripple-fg-scale:1.71429; --mdc-ripple-left:10px; --mdc-ripple-top:10px;">print</button><button class="mdc-icon-button material-icons mdc-top-app-bar__action-item mdc-ripple-upgraded--unbounded mdc-ripple-upgraded" aria-label="Bookmark this page" style="--mdc-ripple-fg-size:28px; --mdc-ripple-fg-scale:1.71429; --mdc-ripple-left:10px; --mdc-ripple-top:10px;">bookmark</button>
+        </section>
+    </div>
+</header>
+<!-- <nav class="navbar">
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-title" href="<?= site_url() ?>">
@@ -83,4 +116,4 @@
             </ul>
         </div>
     </div>
-</nav>
+</nav> -->
