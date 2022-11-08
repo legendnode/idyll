@@ -6,17 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Idyll</title>
-    <link rel="stylesheet" href="/admin/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="/admin/styles/normalize.css">
     <link rel="stylesheet" href="/admin/styles/index.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
-    <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="d-flex">
-            <div class="toast-body">
-                Hello, world! This is a toast message.
-            </div>
-            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-        </div>
-    </div>
-    <!-- <main class="main"> -->
+    <main>
