@@ -5,7 +5,7 @@
         <p><?= _t('由 <a href="/"><strong>Idyll</strong></a> 强力驱动') ?></p>
     </div>
 </footer> -->
-<script src="/admin/scripts/material-components-web.min.js"></script>
+<script src="/admin/scripts/bootstrap.bundle.min.js"></script>
 <script src="/admin/scripts/js.cookie.min.js"></script>
 <script src="/admin/scripts/index.js"></script>
 </body>
